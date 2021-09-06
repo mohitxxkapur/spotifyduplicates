@@ -21,5 +21,4 @@ while ctr < size:
 print("List with duplicates: ", lst)
 clean = removeDupe(lst)
 print("List after removing duplicates: ", clean)
-print("all done")
 
