@@ -7,7 +7,7 @@ The purpose of this program is to take in a spotify playlist and remove duplicat
 * populate list with numbers
 * remove duplicates
 
-**In progress:
+**In progress:**
 * organize list in order of value(smallest ->  largest)
 
 **To be done:**
