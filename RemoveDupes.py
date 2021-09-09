@@ -1,4 +1,17 @@
-import rng as rngg
+#import rng as rngg
+import random
+
+def rng(lim):
+
+    while(lim < 0): 
+        if lim < 0:
+            myError = ValueError('Lim should be positive')
+            raise myError
+        else: 
+            break
+
+    randval = random.randint(0,lim)
+    return randval
 
 def removeDupe(lst):
     cleanedList = []
@@ -13,7 +26,8 @@ size = int(input("What is the size of the list you would like to have: "))
 xxxx=int(input("Please enter the limit: "))
 
 while ctr < size:
-    val = rngg.rng(xxxx)
+    #val = rngg.rng(xxxx)
+    val = rng(xxxx)
     #print(val)
     lst.append(val)
     ctr+=1
