@@ -7,8 +7,10 @@ The purpose of this program is to take in a spotify playlist and remove duplicat
 * populate list with numbers
 * remove duplicates
 
+**In progress:**
+* organize list in order of value(smallest ->  largest)
+
 **To be done:**
-* organize list from highest to smallest
 * Perform this with all chars
 * import spotipy
 * import playlists and work from there
